@@ -1,0 +1,52 @@
+/*-------------------------------------------------General-------------------------------------------------*/
+body {
+  font-family: Arial;
+}
+
+.flex {
+  display: flex;
+}
+
+/*-------------------------------------------------Header-------------------------------------------------*/
+
+header {
+  height: 90vh;
+  
+}
+
+/*-------------------------------------------------Navigation-------------------------------------------------*/
+nav {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1.5rem;
+  height: 10vh;
+}
+
+.logo-txt {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.nav-2 {
+  gap: 1.5rem;
+}
+
+.nav-pages {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.subscribe-btn {
+  text-decoration: none;
+  background-color: aquamarine;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+}
+/*-------------------------------------------------Main Content-------------------------------------------------*/
+
+/*-------------------------------------------------Footer-------------------------------------------------*/
+
+
+
