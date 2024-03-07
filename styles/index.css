@@ -75,3 +75,53 @@ nav {
 
 
 
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(40, 39, 39);
+  display: grid;
+  place-items: center;
+}
+
+.loader {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 0 #e73b3b;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  animation: spin .5s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  text
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  justify-content: center;
+  font-size: 2rem;
+}
